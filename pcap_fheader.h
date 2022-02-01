@@ -4,10 +4,6 @@
 #define PCAP_FHEADER_H
 
 
-//#include "mainwindow.h"
-
-
-
 class pcap_Fheader {
 private:
     unsigned int       m_magic;
