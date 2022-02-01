@@ -1,0 +1,79 @@
+
+/*-----QWidget-----*/
+QWidget
+{
+        background-color: white;
+        color: rgba(242, 245, 240, 0.6);
+	border-color: #181c21;
+
+}
+
+
+/*-----QPushButton-----*/
+QPushButton
+{
+        background-color: rgba(152, 151, 149, 0.3);
+        color: #000000;
+        border-radius: 10px;
+	border-style: solid;
+	border-color: #181c21;
+	font-weight: bold;
+        font-size: 30px;
+	font-family: Arial;
+
+}
+
+
+QPushButton::hover
+{
+        background-color: #cdcdcd;
+
+}
+
+
+QPushButton::pressed
+{
+        background-color: #BDB5B5;
+
+}
+
+
+/*-----QLineEdit-----*/
+QLineEdit
+{
+        background-color: #12160c;
+	color: #ffffff;
+	border: 1px solid #6692fc;
+	padding: 3px;
+        font-size: 30px;
+
+}
+
+/*------QStatusBar------*/
+QStatusBar
+{
+    color: black;
+}
+
+/*-----QTableWidget------*/
+QTableWidget
+{
+    color: black;
+}
+QHeaderView::section
+{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #616161, stop: 0.5 #505050,
+                                      stop: 0.6 #434343, stop:1 #656565);
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #6c6c6c;
+}
+
+/*-----QTextEdit-----*/
+QTextEdit
+{
+    color: black;
+}
